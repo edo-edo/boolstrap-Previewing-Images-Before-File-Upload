@@ -1,0 +1,28 @@
+.upload-btn-wrapper {
+    left: 40px;
+    top: 24px;
+    position: relative;
+    overflow: hidden;
+    display: inline;
+  }
+
+
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    height: 38px;
+  }
+
+  #con {
+    margin-top: 30px;
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1340px;
+    border: ridge 10px blue;
+    height: 290px;
+
+  }
